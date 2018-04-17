@@ -2,7 +2,7 @@
 
 
 ## makeCacheMatrix creates a special matrix that has the ability to cache it's inverse
-## once the inverse has been set, 
+## getInverse() returns NULL if inverse has not been cached 
 
 makeCacheMatrix <- function(x = matrix()) {
    isset <- NULL
